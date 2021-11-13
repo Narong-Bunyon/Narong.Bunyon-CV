@@ -249,16 +249,16 @@ h3{
         flex-wrap: wrap;
     }
     .pictures{
-        width: 97.5%;
+        width: 98%;
     }
     .eperincetop{
-        font-size:20px;
+        font-size:19px;
     }
     h2{
         justify-content: center;
         align-items: center;
         display: flex;
-        font-size: 36.3px;
+        font-size: 35px;
         width: 100%;
         text-align: center;
     }
@@ -320,12 +320,9 @@ h3{
     background: #000;
     border: none;
 }
-.my-hobbies{
+.my-hobbies ,.countone ,.countwo ,.counthree, .countfour{
     display: flex;
 }
-/* .real-pict{
-    width: 25%;
-} */
 h4{
     font-size: 33px;
     width: 100%;
@@ -374,29 +371,27 @@ img{
 }
 
 
-@media(max-width:850px){
-    .real-pict,
-    .pict-show,
-    .showtext, .img{
+@media(max-width:815px){
+ 
+    .countone ,.countwo ,.counthree, .countfour{
         flex-wrap: wrap;
     }
-    .pict-show img{
-        flex-wrap: wrap;
+    .keeper .textfooter{
+        margin: 50px 0px;
 
     }
-    .real-pict{
-        width: 100%;
+    .textfooter{
+        width: 75%;
+        position: absolute;
+        margin-left: 3rem;
     }
-    .pict-show{
-        width: 100%;
-    }
-    img{width: 100%;}
+     
 }
 
 
 
 
-@media(max-width:470px){
+@media(max-width:460px){
     .my-container-top{
         width: 100%;
         height: 50vh;
@@ -418,21 +413,26 @@ img{
         font-size: 25px;
     }
     .real-pict{
-        width: 97%;
+        width: 100%;
     }
     .pict-show{
         width: 100%;
     }
-    img{width: 100%;}
+    img{
+        width: 98%;
+    }
+    
     .my-greeting{
         width: 40%;
         font-size: 25px;
         text-align: center;
     }
     .textfooter{
-        margin: 50px 0px;
         width: 100%;
         position: absolute;
         
+    }
+    .countone ,.countwo ,.counthree, .countfour{
+        width: 100%;
     }
 }
