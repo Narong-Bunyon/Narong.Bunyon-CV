@@ -39,16 +39,17 @@ li a:hover{
 }
 img{
     width: 100%;
+    height: 94vh;
 }
 .name{
     margin-top: 30px;
-    font-size: 42px;
+    font-size: 48px;
     font-family: sans-serif;
     color: rgb(240, 240, 240);
 }
-p.idea{
+p.ideas{
     font-size: 26px;
-    margin-top: 35px;
+    margin-top: 20px;
     font-family: sans-serif;
     color: rgb(87, 216, 203);
 }
@@ -65,10 +66,10 @@ p.idea{
     color: rgb(41, 40, 40);
 }
 .ownicon{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .button{
-    margin-top:28px;
+    margin-top:20px;
 }
 .butone{
     width: 140px;
@@ -108,11 +109,6 @@ span{
 }
 
 
-
-
-
-
-
 /* ==================== Experience===============>>>>> */
 .background{
     background: rgb(199, 195, 195);
@@ -128,12 +124,17 @@ span{
     font-size: 32px;
 }
 .containexperienne{
+    /* justify-content: space-evenly; */
     display: flex;
 }
-.pictures{
-    width: 20%;
+.pictures ,.mynames ,.mydate{
+    margin: 0px 20px;
 }
 .pictures img{
+    width: 100%;
+    height: 73vh;
+}
+img{
     margin: 5px;
 }
 .mynames hr{
@@ -155,14 +156,16 @@ span{
     border: none;
 }
 .mynames{
+    width: 35%;
    text-transform: uppercase;
-    margin: 8px;
+    text-align: center;
     font-size: 25px;
     font-family:sans-serif;
     letter-spacing: 5px;
 }
 .mydate{
-    margin-top: 38px;
+    width: 30%;
+    margin-top: 7rem;
     font-size: 18px;
 }
 .linone,.linetwo ,.linethree {
@@ -170,10 +173,10 @@ span{
     margin: 5px;
 }
 .inlineone ,.inlinetwo, .inlinthree{
-    width: 25%;
+    width: 34%;
 }
 .mytext,.textone ,.textthree{
-    width: 75%;
+    width: 65%;
     margin: 10px;
     font-size: 19px;
 }
@@ -210,7 +213,6 @@ h3{
     align-items: center;
     justify-content: center;
     font-size: 45px;
-
 }
 .welcome{
     display: flex;
@@ -244,21 +246,20 @@ h4{
 .textread{
     font-size: 18px;
 }
-img{
-    text-align: center;
-    width: 100%;
+.choes .remer{
+    height: 50vh;
+    margin: 10px;
 }
-.pict-show{
-    margin: 8px;
+.choes {
+    margin: 6px;
 }
-.showtext .textread{
+.showtext, .textread{
+    align-items: center;
     width: 94%;
     text-align:center;
-    margin: 0px 8px;
+    margin: auto;
 }
-.keeper{display: flex;
-    margin: 20px 0px;
-}
+
 .my-greeting{
     width: 25%;
     height: 8vh;
@@ -275,22 +276,17 @@ img{
     text-align: center;
     font-size: 18px;
     width: 40%;
+    align-items: center;
 }
 .my-hobbies{
     margin: 10px 0px;
 }
 
 
-
-/* ============================================================== End code==========>>>> */
-
-/* ==========================Responsive=========================== */
-
-
-
 /* =============================contact=================>>>>>>>>>> */
-h5{
-    font-size: 30px;
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
 }
 .keepout hr{
     background: white;
@@ -314,8 +310,8 @@ h5{
 .take-inputer{
     display: flex;
 }
-form{
-    width: 45%;
+.take-inputer form{
+    width: 55%;
 }
 
 .make-it-midle{
@@ -325,8 +321,9 @@ form{
 
 }
 .make-it-midle{
-    width: 53%;
+    width: 40%;
     height: 43vh;
+    margin: 10px;
     text-align: center;
     border-radius: 6px;
     background:rgb(95, 95, 95);
@@ -386,8 +383,10 @@ input[type="submit"]{
 
 }
 .my-text-t{
-    font-size: 20px;
-    margin: 5px;
+    font-size: 25px;
+    margin: 10px;
+    font-family: sans-serif;
+    color: white;
 }
 samp{
     font-size: 15px;
@@ -397,54 +396,117 @@ samp{
 
 
 
+/* =============================End code===================>>>>>> */
 
 
 
 
-
-
-
+/* ==========================Responsive=========================== */
 
 /* =================0000000000=== */
 
 
 
-@media(max-width:815px){
- 
+@media(max-width:845px){
+    .nameicons.name{
+        margin: 0px 2px;
+    }
+    .nameicons.idea .ideas{
+        margin-top: auto;
+    }
+   .real-pict #used {
+       margin: 10px;
+   }
+    #used ,img{
+        margin: 2px 0px;
+        /* width: 97%; */
+        height: 10vh;
+    }
+    .showtext{
+        width: 90%;
+    }
     .nave{
         width: 60%;
     }
     .butone,.buttwo{
-        height: 4vh;
+        height: 9vh;
     }
-    
-    .paragraph{
-        margin-top: 60px;
+   .ownicon{
+       margin-bottom: auto;
+   }
+    .paragraph p{
+        margin-top: 15px;
     }
-    .countone ,.countwo ,.counthree, .countfour{
-        flex-wrap: wrap;
+    .nameicons{
+        margin-top: 5px;
     }
-    .keeper .textfooter{
-        margin: 50px 0px;
+    .name{
+        font-size: 40px;
+    }
 
+    /* ================== experience=============== */
+
+    .countone ,.countwo ,.counthree, .countfour{
+        display: block;
+    }
+    .containexperienne{
+        width: 100%;
+    }
+    .eperincetop{
+        height: 10vh;
+    }
+    .pictures{
+        width: 40%;
+    }
+    img{
+        height: 60vh;
+    }
+    .mynames{
+        width: 50%;
+    }
+    .mynames,h2{
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+    }
+    .mydate{
+        width: 20%;
+    }
+    .dateone{
+        font-size: 15px;
+    }
+    .mycontainer{
+       margin-top: auto;
     }
     .textfooter{
         width: 75%;
         position: absolute;
         margin-left: 3rem;
     }
-    .countone ,.countwo ,.counthree, .countfour{
-        flex-wrap: wrap;
-    }
-    .keeper .textfooter{
-        margin: 50px 0px;
 
+
+
+
+    /* =================about===============>>> */
+
+    .countone ,.countwo ,.counthree,.countfour{
+        display: block;
     }
     .textfooter{
-        width: 75%;
-        position: absolute;
-        margin-left: 3rem;
+        margin: 50px 0px;
     }
+    #ide,img{
+        margin: 4px;
+    }
+    .textfooter{
+        width:100%;
+        position: absolute;
+        /* margin-left: 3rem; */
+    }
+
+
+    /* ================contact=========== */
+
      
 }
 
@@ -471,14 +533,19 @@ samp{
     .pictures{
         width: 98%;
     }
-
-
+    #used img{
+        width: 100%;
+        height: 95vh;
+    }
 
 
     /* =========================eperience=============== */
     .eperincetop{
         font-size:19px;
     }
+    .mynames{
+        width: 100%;
+    } 
     h2{
         justify-content: center;
         align-items: center;
@@ -486,6 +553,13 @@ samp{
         font-size: 35px;
         width: 100%;
         text-align: center;
+    }
+    .mynames hr{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
     }
     .containexperienne,
     .linone,
@@ -498,6 +572,7 @@ samp{
     }
     .mydate{
         width: 100%;
+        margin-top: auto;
         text-align: center;
         font-size: 28px;
     }
@@ -513,10 +588,13 @@ samp{
     .contaner{
         display: block;
     }
-.img {
-    
-    width: 100%;
+    .pictures{
+        width: 100%;
     }
+    img{
+        height: 80vh;
+    }
+    
 .butone,.buttwo{
     height: 8vh;
     }
@@ -558,11 +636,9 @@ samp{
     .real-pict{
         width: 100%;
     }
-    .pict-show{
-        width: 100%;
-    }
-    img{
-        width: 98%;
+    #ide  img{
+        width: 99%;
+        height: 65vh;
     }
     .my-greeting{
         width: 40%;
@@ -572,7 +648,6 @@ samp{
     .textfooter{
         width: 100%;
         position: absolute;
-        
     }
     .countone ,.countwo ,.counthree, .countfour{
         width: 100%;
@@ -584,8 +659,12 @@ samp{
     .take-inputer{
         display: block;
     }
-    form , .make-it-midle{
+    .take-inputer form{
         width: 100%;
+    }
+    .make-it-midle{
+        width: 99%;
+        margin: 3px;
     }
     .out-icons{
         display: block;
@@ -596,4 +675,14 @@ samp{
     .side-icone{
         margin-top: 30px;
     }
+    iframe{
+        width: 95%;
+        box-sizing: border-box;
+    }
+    textarea,
+    input[type="name"],
+    input[type="email"],
+    input[type="name"]{
+    width: 98%;
+}
 }
