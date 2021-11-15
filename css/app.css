@@ -56,7 +56,6 @@ p.ideas{
 .nameicons{
     text-align: center;
     width: 50%;
-   margin-top: 2rem;
 }
 .icon{
     margin: 5px;
@@ -65,12 +64,7 @@ p.ideas{
 .icon:hover{
     color: rgb(41, 40, 40);
 }
-.ownicon{
-    margin-top: 20px;
-}
-.button{
-    margin-top:20px;
-}
+
 .butone{
     width: 140px;
     height: 6vh;
@@ -415,7 +409,8 @@ samp{
         margin-top: auto;
     }
     .nameicons{
-        margin-top: 20rem;
+        height: 10vh;
+        margin-top: 5em;
     }
    .real-pict #used {
        margin: 10px;
@@ -423,7 +418,7 @@ samp{
     #used img{
         margin: 2px 5px;
         width: 100%;
-        height: 112vh;
+        height: 105vh;
     }
     .showtext{
         width: 90%;
@@ -446,7 +441,6 @@ samp{
     .name{
         font-size: 40px;
     }
-
     /* ================== experience=============== */
 
     .countone ,.countwo ,.counthree, .countfour{
@@ -488,8 +482,6 @@ samp{
     }
 
 
-
-
     /* =================about===============>>> */
 
     .countone ,.countwo ,.counthree,.countfour{
@@ -527,19 +519,19 @@ samp{
         justify-content: flex-start;
     }
     .name{
-        margin-top: 15rem;
+        margin-top: 20rem;
     }
     .containexperienne{
         flex-wrap: wrap;
     }
-    .pictures{
-        width: 98%;
-    }
+    
+    
     #used ,img{
         width: 100%;
-        height: 80vh;
+        height: 50vh;
         margin-top: 0px;
     }
+    
 
 
     /* =========================eperience=============== */
